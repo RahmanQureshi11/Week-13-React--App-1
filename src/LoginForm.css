@@ -1,0 +1,30 @@
+/* LoginForm.css */
+/*This makes the Login form to the center and adds the border around the form*/
+.login-form {
+    text-align: center;
+    margin-top: 100px;
+    border: 5px solid silver;
+    padding: 20px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*This is border line under the Log In*/
+  .login-heading {
+    border-bottom: 5px solid silver;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+/*This is for the adding style for the submit button */
+ .login-form button{
+    background-color: black ;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ /*This is hover effect */
+.login-form button:hover{
+    background-color: blue;
+}
